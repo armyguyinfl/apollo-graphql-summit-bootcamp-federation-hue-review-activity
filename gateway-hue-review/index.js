@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-console.log("TODO: Build Hue Review Gateway");
-=======
 const { ApolloServer } = require("apollo-server");
 const { ApolloGateway, RemoteGraphQLDataSource } = require("@apollo/gateway");
 const { buildFederatedSchema } = require("@apollo/federation");
@@ -59,4 +56,4 @@ const start = async () => {
 };
 
 start();
->>>>>>> Stashed changes
+
